@@ -1,0 +1,75 @@
+#taxi {
+	background-image: url(../assets/images/taxi.jpg);
+	background-position: bottom;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+
+.jumbotron {
+	background: #FBBD00;
+	color: #FFF;
+	height: 32em;
+	margin-left: 65em;
+	margin-top: 5em;
+	width: 26em;
+}
+
+.orange {
+	background: #FBBD00;
+		
+}
+#info {
+	border: 1px solid #FFF;
+	color: #FFF;
+	margin: 6em 32em 0 -4em;
+
+}
+
+#car {
+	background-image: url(../assets/images/conduce.jpg);
+	background-position: bottom;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+
+
+.jumbotron2  {
+	background-color: rgba(0,0,0,0.5);
+	color: #FFF;
+	height: 38em;
+	margin-left: 68em;
+	margin-top: 5em;
+	width: 24em;
+}
+
+
+.jumbotron3  {
+	color: #FFF;
+	height: 20em;
+	margin-top: 5em;
+}
+	
+.map {
+	margin-top: 9em;
+}
+
+footer {
+	background: #2F2F2F;
+	color: #FFF;
+	
+}
+.final {
+	padding: 0 7em 0 7em;
+}
+.list-group-item {
+	background: #2F2F2F;
+	border: #2F2F2F;
+
+}
+
+.end {
+
+	margin: 17em 0 0 0;
+}
