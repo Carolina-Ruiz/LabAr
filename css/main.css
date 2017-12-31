@@ -1,29 +1,58 @@
+#hamburger{
+	background: #FFF;
+}
+.icon-bar {
+	background-color: #808080;
+	display: inline-block;
+	height: 6px;
+	vertical-align: text-top;
+	width: 100px;
+}
 #taxi {
 	background-image: url(../assets/images/taxi.jpg);
 	background-position: bottom;
 	background-size: cover;
-	height: 600px;
+	height: 48em;
 	width: 100%;
 }
-
+.line {
+	background-color: #FFF;
+	display: inline-block;
+	height: 3px;
+	vertical-align: text-top;
+	width: 3em;
+}
+.good {
+	color:white;
+	display: inline-block;
+	width: 6em;
+}
 .jumbotron {
 	background: #FBBD00;
 	color: #FFF;
-	height: 32em;
-	margin-left: 65em;
+	height: 25em;
+	margin-left: 60em;
 	margin-top: 5em;
-	width: 26em;
+	padding: 1em 1em 1em 1em;
+	width: 35em;
 }
 
 .orange {
 	background: #FBBD00;
-		
+	height: 39em;
 }
 #info {
 	border: 1px solid #FFF;
 	color: #FFF;
-	margin: 6em 32em 0 -4em;
-
+	height: 29em;
+	margin: 6em 32em 0 0;
+}
+#phone {
+	border: 1px solid #FFF;
+	color: #FFF;
+	height: 36em;
+	margin: 9em 0 0 1em;
+	width: 24em;
 }
 
 #car {
@@ -38,21 +67,31 @@
 .jumbotron2  {
 	background-color: rgba(0,0,0,0.5);
 	color: #FFF;
-	height: 38em;
-	margin-left: 68em;
-	margin-top: 5em;
-	width: 24em;
+	height: 42em;
+	margin-left: 64em;
+	padding: 3em 1em 1em 2em;
+	width: 25em;
 }
 
 
 .jumbotron3  {
 	color: #FFF;
-	height: 20em;
-	margin-top: 5em;
+	height: 13em;
+	padding: 1em 1em 1em 1em;
 }
 	
 .map {
-	margin-top: 9em;
+	border: 1px solid #FFF;
+	color: #FFF;
+	height: 17em;
+	margin: 5em 0 0 8em;
+	padding: 4em 0 0 28px;
+	width: 32em;
+}
+
+iframe  {
+	height: 0;
+	width: 27em ;
 }
 
 footer {

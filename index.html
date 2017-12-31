@@ -11,41 +11,55 @@
 <body>
 	<header>
 		<div class="container-fluid">
-			<img src="assets/images/logoForma.png" salt="..." class="img-thumbnail">
-			<div class="navbar-header">
-					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> 
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		          </button>
-		        
-
-
-		        </div>
-				<ul class="nav nav-pills navbar-right"><li role="presentation" class="disabled"><a href="#">Viaja</a></li>
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<img src="assets/images/logoForma.png" salt="..." class="img-thumbnail">
+			</div>
+			<div class="col-xs-4 col-sm-4 hidden-md hidden-lg">
+				<div class="navbar-header" id="hamburger">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"> 
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			         </button>
+			    </div> 
+		    </div>
+		    <div class="hidden-xs hidden-sm col-md-4 col-lg-4">
+				<ul class="nav nav-pills navbar-right">
+					<li role="presentation" class="disabled"><a href="#">Viaja</a></li>
 				     <li role="presentation" class="disabled"><a href="#">Conduce</a></li>
 				     <li role="presentation" class="disabled"><a href="#">Inicia sesión</a></li>
 				</ul>
 			</div>
-		</div>
 		</div>
 	</header>
 	<main>
 		<section id="taxi">
 			<div class="container-fluid">			
 				<div class="jumbotron">
-					<div class="col-lg-8 col-md-8 hidden-sm hidden-xs">
+					<div class="hidden-xs hidden-sm-8 col-md-8 col-lg-8">
 						<h3>Disfruta del viaje!</h3>
 						<h3>Eres dueño de tu tiempo</h3>
 						<p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
 						<p><a class="btn btn-default btn-lg" href="#" role="button">REGISTRATE</a></p>
-						<div>
-						<p>O bien</p>
+						<div class="line"></div>
+						<div class=good>
+							<p>O bien</p>
 						</div>
+						<div class="line"></div>
 						<p><a class="btn btn-default btn-lg" href="#" role="button">Conviértete en un conductor</a></p>
 					</div>
 				</div>
+
+			<!--Jumbotron para movil
+			<div class= "row">
+				<div class="jumbotron">
+					<div class="col-xs-8 hidden-sm hidden-md hidden-lg">			<h3>Comienza a viajar</h3>
+						<p>con <img src="assets/images/logoBlanco.png" alt=""></p>
+						<p><a class="btn btn-default btn-lg" href="#" role="button">Descarga el app</a></p>
+					</div>
+				</div>
+			</div>--> 
 			</div>
 		</section>
 		<section class="orange">
@@ -53,9 +67,14 @@
 				<div class="row">
 					<div id="info">
 						<div class="col-md-6">
-							 <img src="assets/images/iPhone6Plus.png" alt="...">
+							<img src="assets/images/iPhone6Plus.png" alt="...">
 						</div>
-						<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+						<!--version movil
+						<div class="col-xs-6 hidden-sm hidden-md hidden-lg" id="phone">
+							<h3>La nueva app</h3>
+							<img src="assets/images/iPhone6Plus.png" alt="...">
+						</div> -->
+						<div class="hidden-xs hidden-sm col-md-6 col-lg-6">
 							<h3>Descarga la nueva app
 							</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto consectetur ut, recusandae voluptatem minima eos id aut suscipit iure nostrum, temporibus quae tempora tenetur cum, a amet veniam, vel!</p>
@@ -65,18 +84,22 @@
 			</div>
 		</section>
 		<section id="car">
-			<div class="container">			
-			</div>
-			<div class="jumbotron2">
-				<h3>Conduce cuando quieras</h3>
-				 <p>LabCar es una opción flexible para alcanzar tus metas financieras.
-				 <a class="btn btn-warning" href="#" role="button">Conviértete en un conductor</a></p>
+			<div class="container">	
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">		
+						<div class="jumbotron2">
+							<h3>Conduce cuando quieras</h3>
+							 <p>LabCar es una opción flexible para alcanzar tus metas financieras.
+							 <a class="btn btn-warning" href="#" role="button">Conviértete en un conductor</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section class="orange">
 			<div class="container-fluid">
 				<div class="row ruta">
-					<div class="col-md-4">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 						<div class="jumbotron3">
 							<h3>Tarifas</h3>
 						   	<p>Consulta las tarifas LabCar aquí</p>
@@ -88,9 +111,12 @@
 						 	 <p><a class="btn btn-default" href="#" role="button">¡TRAZAR RUTA!</a></p>
 						</div>
 					</div>
-					<div class="col-md-6 map">
-						<iframe class="thumbnail img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62523112.01406334!2d-111.68263479507961!3d-15.610283760438165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses-419!2scl!4v1512399612050" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</div>	
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="map">
+						
+							<iframe class="thumbnail img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62523112.01406334!2d-111.68263479507961!3d-15.610283760438165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses-419!2scl!4v1512399612050" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>	
+					</div>
 				</div>
 			</div>
 		</section>
